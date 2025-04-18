@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "framework": {
+    "version": "0.39.5"
+  },
+  "routes": [
+    {
+      "src": "/api",
+      "dest": "/api/users",
+      "status": 301,
+      "headers": {
+        "Location": "/api/users"
+      }
+    },
+    {
+      "src": "/",
+      "dest": "/docs/introduction",
+      "status": 301,
+      "headers": {
+        "Location": "/docs/introduction"
+      }
+    }
+  ]
+}
