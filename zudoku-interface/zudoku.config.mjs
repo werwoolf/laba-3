@@ -14,24 +14,28 @@ const config = {
                 items: ["docs/introduction", "docs/example"],
             },
         ],
-        about:
-            [
-                {
-                    type: "link",
-                    label: "Installation",
-                    href: "about/installation",
-                },
-                {
-                    type: "link",
-                    label: "Authorization",
-                    href: "about/authorization",
-                },
-                {
-                    type: "link",
-                    label: "About",
-                    href: "about/about",
-                },
-            ],
+        about: [{
+            type: "category",
+            label: "Overview",
+            items: ["about/installation", "about/authorization", "about/about"],
+        }],
+        // [
+        //     {
+        //         type: "link",
+        //         label: "Installation",
+        //         href: "about/installation",
+        //     },
+        //     {
+        //         type: "link",
+        //         label: "Authorization",
+        //         href: "about/authorization",
+        //     },
+        //     {
+        //         type: "link",
+        //         label: "About",
+        //         href: "about/about",
+        //     },
+        // ],
     },
     redirects: [{from: "/", to: "/docs/introduction"}],
     apis:
