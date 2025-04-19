@@ -1,0 +1,1 @@
+{"version":3,"file":"authorization-HUn7R8T6.js","sources":["../../../pages/about/authorization.mdx"],"sourcesContent":["---\ntitle: \"Authorization\"\n---\n\n:::info\n\nДля авторизації використовується Bearer JWT токен, треба додати його в хедер запиту \"Authorization\"\n\n:::\n"],"names":[],"mappings":"6SAMA,SAAA"}
