@@ -1,5 +1,6 @@
 /** @type {import('zudoku').ZudokuConfig} */
 const config = {
+        basePath: "/laba-3",
         topNavigation: [
             {id: "docs", label: "Documentation"},
             {id: "api", label: "API Reference"},
