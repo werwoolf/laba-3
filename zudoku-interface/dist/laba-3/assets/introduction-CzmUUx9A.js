@@ -1,0 +1,7 @@
+import{L as i,j as n}from"./entry.client-CPrFnnVk.js";const r="Thanks for choosing to use Zudoku to power your API documentation!",s=[{depth:2,value:"Edit this page",id:"edit-this-page"},{depth:2,value:"Additional Configuration",id:"additional-configuration"}],c={title:"Welcome to Zudoku"};function e(t){const o={a:"a",code:"code",h2:"h2",p:"p",...i(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(o.p,{children:"Thanks for choosing to use Zudoku to power your API documentation!"}),`
+`,n.jsx(o.h2,{id:"edit-this-page",children:"Edit this page"}),`
+`,n.jsxs(o.p,{children:["To edit this page, open the ",n.jsx(o.code,{inline:!0,children:"index.mdx"})," file in the ",n.jsx(o.code,{inline:!0,children:"pages"})," directory."]}),`
+`,n.jsx(o.h2,{id:"additional-configuration",children:"Additional Configuration"}),`
+`,n.jsxs(o.p,{children:["You can find the full configuration for your Zudoku site in the ",n.jsx(o.code,{inline:!0,children:"zudoku.config.ts"})," file."]}),`
+`,n.jsxs(o.p,{children:["For further information on how to customize your site, check out the ",n.jsx(o.a,{href:"https://zudoku.dev/docs",children:"Zudoku documentation"}),"."]})]})}function u(t={}){const{wrapper:o}={...i(),...t.components};return o?n.jsx(o,{...t,children:n.jsx(e,{...t})}):e(t)}export{u as default,r as excerpt,c as frontmatter,s as tableOfContents};
+//# sourceMappingURL=introduction-CzmUUx9A.js.map
