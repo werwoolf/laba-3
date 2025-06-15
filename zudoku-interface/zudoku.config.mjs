@@ -8,7 +8,7 @@ const config = {
         {id: "appendices", label: "Appendices"},
     ],
     sidebar: {},
-    redirects: [{from: "/", to: "/docs/introduction"}],
+    redirects: [{from: "/", to: "/introduction"}],
     docs: {
         files: "/pages/**/*.{md,mdx}",
     }
