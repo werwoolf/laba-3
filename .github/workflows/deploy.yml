@@ -37,12 +37,12 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./zudoku-interface/dist/technical-report
+          publish_dir: ./zudoku-interface/dist/laba-3
           publish_branch: gh-pages
           keep_files: false
 
       - name: Verify gh-pages branch
         run: |
           git fetch origin gh-pages
-          ls -la ./zudoku-interface/dist/technical-report
+          ls -la ./zudoku-interface/dist/laba-3
         working-directory: ./zudoku-interface
