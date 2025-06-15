@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "zudoku dev",
-    "build": "zudoku build",
+    "build": "zudoku build --out-dir=dist/technical-report",
     "preview": "zudoku preview",
     "lint": "eslint"
   },

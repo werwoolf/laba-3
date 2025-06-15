@@ -6,10 +6,10 @@
   "routes": [
     {
       "src": "/technical-report",
-      "dest": "/technical-report/docs/introduction",
+      "dest": "/technical-report/introduction",
       "status": 301,
       "headers": {
-        "Location": "/technical-report/docs/introduction"
+        "Location": "/technical-report/introduction"
       }
     }
   ]
