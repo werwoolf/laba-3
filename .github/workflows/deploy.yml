@@ -24,15 +24,19 @@ jobs:
         run: pnpm install
         working-directory: ./zudoku-interface
 
-      - name: List repository structure
-        run: ls -R
-
       - name: Build project
         run: pnpm run build
         working-directory: ./zudoku-interface
+
+      - name: Verify build output
+        run: |
+          echo "Listing dist directory..."
+          ls -la ./zudoku-interface/dist
+          echo "Listing technical-report directory..."
+          ls -la ./zudoku-interface/dist/technical-report || echo "technical-report directory not found"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: /zudoku-interface/dist/technical-report
+          publish_dir: ./zudoku-interface/dist/technical-report
