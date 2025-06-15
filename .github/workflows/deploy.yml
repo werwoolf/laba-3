@@ -24,6 +24,9 @@ jobs:
         run: pnpm install
         working-directory: ./zudoku-interface
 
+      - name: List files in build directory
+        run: ls -la ./zudoku-interface/dist
+
       - name: Build project
         run: pnpm run build
         working-directory: ./zudoku-interface
