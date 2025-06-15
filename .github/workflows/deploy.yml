@@ -35,8 +35,8 @@ jobs:
 #          echo "Listing technical-report directory..."
 #          ls -la ./zudoku-interface/dist/technical-report || echo "technical-report directory not found"
 #
-      - name: Create .nojekyll
-        run: touch ./zudoku-interface/dist/laba-3/.nojekyll
+#      - name: Create .nojekyll
+#        run: touch ./zudoku-interface/dist/laba-3/.nojekyll
 
 #      - name: Debug publish_dir contents
 #        run: find ./zudoku-interface/dist/technical-report -type f
