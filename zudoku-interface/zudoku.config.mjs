@@ -1,6 +1,6 @@
 /** @type {import('zudoku').ZudokuConfig} */
 const config = {
-    // basePath: "/laba-3",
+    basePath: "/laba-3",
     topNavigation: [
         {id: "introduction", label: "Introduction"},
         {id: "description", label: "Overall Description"},
