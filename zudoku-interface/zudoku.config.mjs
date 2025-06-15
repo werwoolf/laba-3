@@ -1,6 +1,5 @@
 /** @type {import('zudoku').ZudokuConfig} */
 const config = {
-    basePath: "/technical-report",
     topNavigation: [
         {id: "introduction", label: "Introduction"},
         {id: "description", label: "Overall Description"},
