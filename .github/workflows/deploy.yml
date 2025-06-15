@@ -36,7 +36,7 @@ jobs:
 #          ls -la ./zudoku-interface/dist/technical-report || echo "technical-report directory not found"
 #
       - name: Create .nojekyll
-        run: touch ./zudoku-interface/dist/technical-report/.nojekyll
+        run: touch ./zudoku-interface/dist/laba-3/.nojekyll
 
 #      - name: Debug publish_dir contents
 #        run: find ./zudoku-interface/dist/technical-report -type f
@@ -45,7 +45,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./zudoku-interface/dist/technical-report
+          publish_dir: ./zudoku-interface/dist/laba-3
           destination_dir: technical-report
           publish_branch: gh-pages
           keep_files: false
