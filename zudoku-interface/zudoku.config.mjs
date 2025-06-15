@@ -1,56 +1,17 @@
 /** @type {import('zudoku').ZudokuConfig} */
 const config = {
-    basePath: "/laba-3",
+    basePath: "/technical-report",
     topNavigation: [
-        {id: "docs", label: "Documentation"},
-        {id: "api", label: "API Reference"},
-        {id: "about", label: "About"},
+        {id: "introduction", label: "Introduction"},
+        {id: "description", label: "Overall Description"},
+        {id: "requirements", label: "Specific Requirements"},
+        {id: "appendices", label: "Appendices"},
     ],
-    sidebar: {
-        docs: [
-            {
-                type: "category",
-                label: "Overview",
-                items: ["docs/introduction", "docs/example"],
-            },
-        ],
-        about: [{
-            type: "category",
-            label: "Overview",
-            items: ["about/installation", "about/authorization", "about/about"],
-        }],
-        // [
-        //     {
-        //         type: "link",
-        //         label: "Installation",
-        //         href: "about/installation",
-        //     },
-        //     {
-        //         type: "link",
-        //         label: "Authorization",
-        //         href: "about/authorization",
-        //     },
-        //     {
-        //         type: "link",
-        //         label: "About",
-        //         href: "about/about",
-        //     },
-        // ],
-    },
+    sidebar: {},
     redirects: [{from: "/", to: "/docs/introduction"}],
-    apis:
-        {
-            type: "file",
-            input:
-                "./apis/home-work.json",
-            navigationId:
-                "api",
-        }
-    ,
     docs: {
         files: "/pages/**/*.{md,mdx}",
     }
-    ,
 };
 
 export default config;

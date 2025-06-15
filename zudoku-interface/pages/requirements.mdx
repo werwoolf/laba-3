@@ -1,0 +1,62 @@
+### 3. Specific Requirements
+
+#### 3.1 External Interface Requirements
+- **User Interfaces**:
+  - Web-based interface using React and Tailwind CSS.
+  - Intuitive design for issuing, verifying, and viewing credentials.
+  - Multilingual support (English and Ukrainian minimum).
+- **Hardware Interfaces**:
+  - Standard computing devices (no specialized hardware required).
+- **Software Interfaces**:
+  - Solana blockchain integration via Anchor framework.
+  - React Query for efficient data fetching and caching.
+- **Communication Interfaces**:
+  - HTTP/HTTPS for web communication.
+  - WebSocket for real-time notifications.
+
+#### 3.2 Functional Requirements
+| ID | Requirement |
+|----|-------------|
+| **FR1** | Authorized issuers shall create and issue credentials on the Solana blockchain. |
+| **FR2** | Verifiers shall validate credentials by querying the blockchain. |
+| **FR3** | Credentials shall be stored securely and immutably on the blockchain. |
+| **FR4** | Users shall search and view their own credentials. |
+| **FR5** | Only authorized users shall issue or verify credentials. |
+| **FR6** | Issuers shall revoke credentials if necessary. |
+| **FR7** | Smart contracts shall manage credential issuance and verification. |
+
+#### 3.3 Performance Requirements
+- Handle at least 1000 transactions per second.
+- Credential verification response time under 2 seconds.
+- System availability of 99.9%.
+
+#### 3.4 Design Constraints
+- Backend: Rust, Solana, Anchor, Cargo test framework.
+- Frontend: React, React Query, Tailwind CSS.
+- Blockchain: Solana with Anchor framework.
+- All tests must pass using Cargo test framework.
+
+#### 3.5 Software System Attributes
+- **Security**:
+  - Data encryption for sensitive information.
+  - Role-based access control.
+  - Smart contract security audits.
+  - Multi-signature wallets for critical operations.
+  - Regular system security audits.
+- **Reliability**:
+  - Minimal downtime with robust data integrity.
+  - Backup and recovery mechanisms.
+- **Maintainability**:
+  - Well-documented, modular code.
+  - Adherence to coding best practices.
+- **Portability**:
+  - Web-based frontend accessible on modern browsers.
+  - Backend deployable on Rust- and Solana-compatible servers.
+
+#### 3.6 Other Requirements
+- **OR1**: Compliance with data protection regulations (e.g., GDPR).
+- **OR2**: Comprehensive user and developer documentation.
+- **OR3**: Scalability to support growing user and transaction volumes.
+- **OR4**: User control over personal data per privacy laws.
+
+---

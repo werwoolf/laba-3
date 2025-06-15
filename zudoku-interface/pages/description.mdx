@@ -1,0 +1,34 @@
+### 2. Overall Description
+
+#### 2.1 Product Perspective
+The platform is a standalone application leveraging the Solana blockchain to manage educational and professional credentials securely. It eliminates reliance on centralized databases by storing credentials on a decentralized ledger, ensuring transparency and immutability. The system integrates with existing educational and certification systems, allowing issuers to publish credentials and verifiers to confirm their authenticity.
+
+#### 2.2 Product Functions
+- **Issuance**: Authorized issuers create and publish credentials on the blockchain.
+- **Storage**: Credentials are stored immutably on the Solana blockchain.
+- **Verification**: Verifiers query the blockchain to validate credentials.
+- **User Management**: Registration and profile management for issuers, verifiers, and credential owners.
+- **Search and Retrieval**: Credential owners can access their credentials.
+- **Revocation**: Issuers can revoke credentials if necessary.
+
+#### 2.3 User Characteristics
+| User Role | Description | Technical Proficiency |
+|-----------|-------------|----------------------|
+| **Issuers** | Educational institutions or certification bodies issuing credentials. | Moderate; requires training on platform features. |
+| **Verifiers** | Employers or institutions verifying credentials. | Basic; familiar with web applications. |
+| **Credential Owners** | Individuals who own diplomas or certificates. | Basic; familiar with online platforms. |
+| **Administrators** | Manage user access and system operations. | Advanced; technical expertise required. |
+
+#### 2.4 Constraints
+- Development must use Rust, Solana, Anchor, Cargo test framework, React, React Query, and Tailwind CSS.
+- The platform must operate on the Solana blockchain.
+- Compliance with data privacy regulations (e.g., GDPR) is mandatory.
+- The system must support at least 1000 transactions per second.
+
+#### 2.5 Assumptions and Dependencies
+- Users have internet access and modern web browsers.
+- The Solana blockchain remains operational.
+- Issuers and verifiers have legal authority to issue or verify credentials.
+- Smart contracts will be audited for security before deployment.
+
+---

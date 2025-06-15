@@ -5,19 +5,11 @@
   },
   "routes": [
     {
-      "src": "/laba-3/api",
-      "dest": "/laba-3/api/users",
+      "src": "/technical-report",
+      "dest": "/technical-report/docs/introduction",
       "status": 301,
       "headers": {
-        "Location": "/laba-3/api/users"
-      }
-    },
-    {
-      "src": "/laba-3",
-      "dest": "/laba-3/docs/introduction",
-      "status": 301,
-      "headers": {
-        "Location": "/laba-3/docs/introduction"
+        "Location": "/technical-report/docs/introduction"
       }
     }
   ]
